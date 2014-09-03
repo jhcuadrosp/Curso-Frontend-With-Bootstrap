@@ -1,0 +1,21 @@
+.contenedor {
+  background-color: #ddd;
+  padding: 1em;
+}
+#contenedor1 {
+  background-color: #f00;
+  padding: 2em 0 1em 0;
+}
+#contenedor2 {
+  background-color: #00f;
+  padding: 1em;
+}
+.col {
+  background-color: #aaa;
+  border: 2px solid #444;
+  color: #fff;
+}
+.col1 {
+  background-color: #aaa;
+  border: 2px solid #444;
+}

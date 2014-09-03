@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Ejemplo con Grids</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="grid.css">
+</head>
+<body>
+	<h1>Prueba Grid Bootstrap</h1>
+	<p>Clase Inicial</p>
+	<div class="contenedor row">
+		<div class="col col-xs-3">Columna 1</div>
+		<div class="col col-xs-3">Columna 2</div>
+		<div class="col col-xs-3">Columna 3</div>
+		<div class="col col-xs-3">Columna 4</div>
+	</div>
+	<div id="contenedor1" class="row">
+		<div class="col col-sm-3">Columna 1</div>
+		<div class="col col-sm-3">Columna 2</div>
+		<div class="col col-sm-3">Columna 3</div>
+		<div class="col col-sm-3">Columna 4</div>
+	</div>
+	<div id="contenedor2" class="row">
+		<div class="col col-lg-3 col-sm-6">Columna 1</div>
+		<div class="col col-lg-3 col-sm-6">Columna 2</div>
+		<div class="col col-lg-3 col-sm-6">Columna 3</div>
+		<div class="col col-lg-3 col-sm-6">Columna 4</div>
+	</div>
+
+	<h3>Ejemplo de Tools de Visualización</h3>
+	<h4 class="visible-lg">Desktop LArge (LG)</h4>
+	<h4 class="visible-md">Desktop Mediuw (MD)</h4>
+	<h4 class="visible-sm">Tablets (SM)</h4>
+	<h4 class="visible-xs">Phones (XS)</h4>
+
+	<div class="contenedor row">
+		<div class="col-xs-2"></div>	
+		<div class="col1 col-xs-8">
+			Esta Columna Siempre ocupa 12 o lo que se especifique en la Clase.
+			<div class="contenedor row">
+				<div class="col1 col-xs-6">Columna 1</div>
+				<div class="col1 col-xs-6">Columa 2</div>
+			</div>
+		</div>
+		<div class="col-xs-2"></div>	
+	</div>
+
+</body>
+</html>
